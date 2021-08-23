@@ -67,6 +67,7 @@ Imagine um repositório gigantesco com inúmeras ferramentas de desenvolvimento.
 ```
 http://localhost:3000
 ```
+<img src='https://github.com/DianaMartine/nodeJs-liveCoding-DIO/blob/main/Nodejs/assets/server.png?raw=true' alt='server' />
 
 * Exemplo:
 
@@ -77,6 +78,8 @@ Arch | arquitetura
 TotalRAM | memória total
 FreeRAM | memória livre
 Usage | porcentagem de uso
+
+<img src='https://github.com/DianaMartine/nodeJs-liveCoding-DIO/blob/main/Nodejs/assets/pcRamUsage.png?raw=true' alt='pcRamUsage' />
 
 ### Mas antes...
 
