@@ -41,7 +41,7 @@ Com a criação do NodeJS, temos a possibilidade de rodar o JavaScript sem preci
 
 ### OMG como assim?
 
-O nodejs, diferente de outros interpretadores trabalha com __single-thread__, ou seja, imagina que cada requisição é um pedido de delivery... vai chegar uma hora que o quadro de pedidos vai estar cheio e se tiver um pedido que ainda não foi produzido e entregue, ele vai bloquear a passagem dos outros pedidos, gerando insatisfação dos clientes.
+O nodejs, diferente de outros interpretadores, trabalha com __single-thread__, ou seja, imagina que cada requisição é um pedido de delivery... vai chegar uma hora que o quadro de pedidos vai estar cheio e se tiver um pedido que ainda não foi produzido e entregue, ele vai bloquear a passagem dos outros pedidos, gerando insatisfação dos clientes.
 Coitado do entregador.
 
 <img width='50px' src='https://i.pinimg.com/280x280_RS/59/36/19/593619745992a4f2c3ad22601542f138.jpg' />
