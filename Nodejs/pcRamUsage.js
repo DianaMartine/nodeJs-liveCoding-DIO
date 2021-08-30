@@ -6,10 +6,14 @@ const tRam = totalmem() / 1024 / 1024;
 const fRam = freemem() / 1024 / 1024;
 const usage = (fRam / tRam) * 100;
 
-exports.stats = {
+const stats = {
 	OS: platform(),
 	Arch: arch(),
-	totalRAM: parseInt(tRam),
+	TotalRAM: parseInt(tRam),
 	FreeRAM: parseInt(fRam),
 	Usage: `${usage.toFixed(2)}%`
-}}, 1000)
+}
+console.clear();
+console.table(stats);
+exports.stats = stats;
+}, 1000)
