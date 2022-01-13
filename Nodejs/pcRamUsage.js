@@ -4,7 +4,8 @@ setInterval(() => {
 const { platform, arch, totalmem, freemem } = os;
 const tRam = totalmem() / 1024 / 1024;
 const fRam = freemem() / 1024 / 1024;
-const usage = (fRam / tRam) * 100;
+const uRam = tRam - fRam;
+const usage = (uRam / tRam) * 100;
 
 const stats = {
 	OS: platform(),
